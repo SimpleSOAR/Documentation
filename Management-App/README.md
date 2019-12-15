@@ -47,3 +47,14 @@ When starting a workflow using the workflowKey, the most recent deployment of th
 The `startVariables` property is **optional**.  This property contains the variables that are to be injected into the created workflow instance.  You typically use start variables to provide initial configuration and data to inject into your workflows when they execute tasks.  You may also use startVariables to inject reference data into a process such as a ticket-number, department-owner, source-generating-system, etc.
 
 
+
+
+## Configuration
+
+The Management App has the following configuration in the Application.yml file.
+
+```yml
+
+...
+
+```
