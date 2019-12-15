@@ -29,7 +29,7 @@ POST `localhost:8080/management/workflow/instance`
 
 ```json
 {
-  "workflowKey: "myProcessKey",
+  "workflowKey": "myProcessKey",
   "startVariables": {
     "someKey": "someVar",
     "ip_list": ["0.0.0.0", "127.0.2.5"]
